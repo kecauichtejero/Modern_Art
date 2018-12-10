@@ -2,6 +2,8 @@ PImage art;
 
 void setup(){
   size(500,500);
- /*@pjs preload="art.png"*/
+   art = loadImage("art.png");
+  image(art,0,0,500,500);
+ /* @pjs preload="art.png" */
 }
 //
